@@ -2,16 +2,45 @@
     <title>
         Sky777 | | Nature Photos
     </title>
+    <style>
+        div.gallery {
+            margin: 7px;
+            border: 3px dotted #b76e79;
+        }
+
+        div.gallery:hover {
+            border: 2px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
     <h1 style="text-align: center;">Here are Sky777's Nature photos!!!</h1>
     <h3 style="text-align: center; color: blueviolet;">Click on an image to get a higher resolution version!</h3>
     <p>
-        <a class="truthsocial-share"></a>
+        <a class="truthsocial-share" style="text-align: center;"></a>
         <script src="https://truthsocial.com/instance/share.js"></script>
     </p>
-    <a href="highRes/Cottonmill Hill.JPG" style="width:20%;">
-        <img src="highRes/Cottonmill Hill.JPG" alt="Cottonmill Hill">
-    </a>
-    <a href="highRes/White Trees.JPG" style="width: 20px;">
-        <img src="highRes/White Trees.JPG" alt="White Trees">
-    </a>
 </head>
+
+<body>
+    <div class="gallery">
+        <a target="_blank" href="highRes/Cottonmill Hill.JPG">
+            <img src="highRes/Cottonmill Hill.JPG" alt="Icy Hill at Cottonmill Park" width="600" height="400">
+        </a>
+        <div class="desc">Icy Hill at Cottonmill Park</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="highRes/White Trees.JPG">
+          <img src="highRes/White Trees.JPG" alt="Beautiful Trees at Cottonmill Park" width="600" height="400">
+        </a>
+        <div class="desc">Beautiful Trees at Cottonmill Park</div>
+      </div>
+</body>
