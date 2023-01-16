@@ -1,3 +1,5 @@
+<html style="color-scheme: dark;">
+
 <head>
     <title>
         Sky777 | | Nature Photos
@@ -5,10 +7,7 @@
     <link rel="icon" type="image/x-icon" href="https://buildersky.github.io/Photo-Album/Assets/photos.ico">
     <style>
         div.gallery {
-            margin: 7px;
             border: 2px solid #777;
-            float: left;
-            width: 23%;
         }
 
         div.gallery:hover {
@@ -24,9 +23,32 @@
             padding: 15px;
             text-align: center;
         }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .responsive {
+            padding: 0 8px;
+            float: left;
+            width: 23;
+        }
+
+        @media only screen and (max-width: 700px) {
+            .responsive {
+                width: 48%;
+                margin: 6px 0;
+            }
+        }
+
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
     </style>
-    <h1 style="text-align: center;">Here are Sky777's Nature photos!!!</h1>
-    <h3 style="text-align: center; color: blueviolet;">Click on an image to get a higher resolution version!</h3>
+    <h1 style="text-align: center; color: white; background-color: #0E5253; border: 10px, dashed, #4b4b4b;">Here are Sky777's Nature photos!!!</h1>
+    <h3 style="text-align: center; color: whitesmoke; background-color: #0E5253;">Click on an image to get a higher resolution version!</h3>
     <p>
         <a class="truthsocial-share" style="text-align: center;"></a>
         <script src="https://truthsocial.com/instance/share.js"></script>
@@ -34,82 +56,111 @@
 </head>
 
 <body>
-    <div class="gallery">
-        <a target="_blank" href="highRes/Icy Path.JPG">
-            <img src="Thumbs/Icy Path.jpg" alt="Icy Hill at Cottonmill Park" width="600" height="400">
-        </a>
-        <div class="desc">Icy Hill at Cottonmill Park</div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="highRes/Icy Path.JPG">
+                <img src="Thumbs/Icy Path.jpg" alt="Icy Hill at Cottonmill Park" width="600" height="400">
+            </a>
+            <div class="desc">Icy Hill at Cottonmill Park</div>
+        </div>
     </div>
-    <div class="gallery">
-        <a target="_blank" href="highRes/White Trees 1.JPG">
-            <img src="Thumbs/White Trees 1.jpg" alt="Beautiful Trees at Cottonmill Park" width="600" height="400">
-        </a>
-        <div class="desc">Frosty Cottonmill Trees</div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="highRes/White Trees 1.JPG">
+                <img src="Thumbs/White Trees 1.jpg" alt="Beautiful Trees at Cottonmill Park" width="600" height="400">
+            </a>
+            <div class="desc">Frosty Cottonmill Trees</div>
+        </div>
     </div>
-    <div class="gallery">
-        <a target="_blank" href="highRes/Cottonmill Hill.JPG">
-            <img src="Thumbs/Cottonmill Hill.JPG" alt="Icy Slope" width="600" height="400">
-        </a>
-        <div class="desc">Icy Slope</div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="highRes/Cottonmill Hill.JPG">
+                <img src="Thumbs/Cottonmill Hill.JPG" alt="Icy Slope" width="600" height="400">
+            </a>
+            <div class="desc">Icy Slope</div>
+        </div>
     </div>
-    <div class="gallery">
-        <a target="_blank" href="highRes/Cottonmill Lake 1.JPG">
-            <img src="Thumbs/Cottonmill Lake 1.jpg" alt="Beautiful Icy Lake" width="600" height="400">
-        </a>
-        <div class="desc">Beautiful Icy Lake</div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="highRes/Cottonmill Lake 1.JPG">
+                <img src="Thumbs/Cottonmill Lake 1.jpg" alt="Beautiful Icy Lake" width="600" height="400">
+            </a>
+            <div class="desc">Beautiful Icy Lake</div>
+        </div>
     </div>
-    <div class="gallery">
-        <a target="_blank" href="highRes/Cottonmill Lake 2.JPG">
-            <img src="Thumbs/Cottonmill Lake 2.jpg" alt="Icy Lake and Trees" width="600" height="400">
-        </a>
-        <div class="desc">Icy Lake and Trees</div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="highRes/Cottonmill Lake 2.JPG">
+                <img src="Thumbs/Cottonmill Lake 2.jpg" alt="Icy Lake and Trees" width="600" height="400">
+            </a>
+            <div class="desc">Icy Lake and Trees</div>
+        </div>
     </div>
-    <div class="gallery">
-        <a target="_blank" href="highRes/Cottonmill Lake 3.JPG">
-          <img src="Thumbs/Cottonmill Lake 3.jpg" alt="HoarFrost Close-Up & Lake" width="600" height="400">
-        </a>
-        <div class="desc">HoarFrost Close-Up & Lake</div>
-      </div>
-      <div class="gallery">
-        <a target="_blank" href="highRes/Cottonmill Overlook.JPG">
-          <img src="Thumbs/Cottonmill Overlook.jpg" alt="Beautiful Cottonmill Overlook" width="600" height="400">
-        </a>
-        <div class="desc">Cottonmill Overlook</div>
-      </div>
-      <div class="gallery">
-        <a target="_blank" href="highRes/Dark Sky Frosty Grass.JPG">
-          <img src="Thumbs/Dark Sky Frosty Grass.jpg" alt="Deep Frost" width="600" height="400">
-        </a>
-        <div class="desc">Deep Frost</div>
-      </div>
-      <div class="gallery">
-        <a target="_blank" href="highRes/Frosty Bank.JPG">
-          <img src="Thumbs/Frosty Bank.jpg" alt="Frosty Bank" width="600" height="400">
-        </a>
-        <div class="desc">Frosty Bank</div>
-      </div>
-      <div class="gallery">
-        <a target="_blank" href="highRes/Frosty Tree Cluster.JPG">
-          <img src="Thumbs/Frosty Tree Cluster.jpg" alt="Frosty Tree Cluster" width="600" height="400">
-        </a>
-        <div class="desc">Frosty Tree Cluster</div>
-      </div>
-      <div class="gallery">
-        <a target="_blank" href="highRes/White Grass Trees.JPG">
-          <img src="Thumbs/White Grass Trees.jpg" alt="Frosty Trees & Grass" width="600" height="400">
-        </a>
-        <div class="desc">Frosty Trees & Grass</div>
-      </div>
-      <div class="gallery">
-        <a target="_blank" href="highRes/White Trees 2.JPG">
-          <img src="Thumbs/White Trees 2.jpg" alt="Frosty Horizon" width="600" height="400">
-        </a>
-        <div class="desc">Frosty Horizon</div>
-      </div>
-      <div class="gallery">
-        <a target="_blank" href="highRes/Winter Street.JPG">
-          <img src="Thumbs/Winter Street.jpg" alt="Cottonmill Street in Winter" width="600" height="400">
-        </a>
-        <div class="desc">Cottonmill Street in Winter</div>
-      </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="highRes/Cottonmill Lake 3.JPG">
+                <img src="Thumbs/Cottonmill Lake 3.jpg" alt="HoarFrost Close-Up & Lake" width="600" height="400">
+            </a>
+            <div class="desc">HoarFrost Close-Up & Lake</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="highRes/Cottonmill Overlook.JPG">
+                <img src="Thumbs/Cottonmill Overlook.jpg" alt="Beautiful Cottonmill Overlook" width="600" height="400">
+            </a>
+            <div class="desc">Cottonmill Overlook</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="highRes/Dark Sky Frosty Grass.JPG">
+                <img src="Thumbs/Dark Sky Frosty Grass.jpg" alt="Deep Frost" width="600" height="400">
+            </a>
+            <div class="desc">Deep Frost</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="highRes/Frosty Bank.JPG">
+                <img src="Thumbs/Frosty Bank.jpg" alt="Frosty Bank" width="600" height="400">
+            </a>
+            <div class="desc">Frosty Bank</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="highRes/Frosty Tree Cluster.JPG">
+                <img src="Thumbs/Frosty Tree Cluster.jpg" alt="Frosty Tree Cluster" width="600" height="400">
+            </a>
+            <div class="desc">Frosty Tree Cluster</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="highRes/White Grass Trees.JPG">
+                <img src="Thumbs/White Grass Trees.jpg" alt="Frosty Trees & Grass" width="600" height="400">
+            </a>
+            <div class="desc">Frosty Trees & Grass</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="highRes/White Trees 2.JPG">
+                <img src="Thumbs/White Trees 2.jpg" alt="Frosty Horizon" width="600" height="400">
+            </a>
+            <div class="desc">Frosty Horizon</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="highRes/Winter Street.JPG">
+                <img src="Thumbs/Winter Street.jpg" alt="Cottonmill Street in Winter" width="600" height="400">
+            </a>
+            <div class="desc">Cottonmill Street in Winter</div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
 </body>
+
+</html>
